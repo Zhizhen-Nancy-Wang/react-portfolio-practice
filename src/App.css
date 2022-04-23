@@ -1,6 +1,3 @@
-import pic from "../images/pic.jpg"
-
-
 /* top part */
 html {
   scroll-behavior: smooth;
@@ -10,10 +7,10 @@ a {
 }
 .top-nav {
   min-height: 70vh;
-  /* background: #e98383; */
-  background-image: url(../images/pic.jpg);
+  background: #e98383;
   background-size: cover;
 }
+
 #top-info {
   color: rgb(100, 10, 10);
 }
