@@ -1,5 +1,6 @@
 import React from "react";
-import project1 from "../../images/project1.jpg";
+import Nancy from "../../images/Nancy.JPG";
+import { Container, Row, Col } from "react-bootstrap";
 
 export const Projects = () => {
   return (
@@ -9,21 +10,20 @@ export const Projects = () => {
       </div>
 
       <div className="pro-content">
-        <div className="container mt-5">
+        <Container className="container mt-5">
           {/* <!-- =============project 1 section =============== --> */}
-          <div className="row mt-5 py-5">
-            <div className="col-md">
-              <img src={project1} className="img-fluid" alt="" />
-            </div>
+          <Row className=" mt-5 py-5">
+            <Col md="6">
+              <img src={Nancy} className="img-fluid" alt="" />
+            </Col>
 
-            <div className="col-md mt-5 mt-md-0">
+            <Col md="6" className=" mt-5 mt-md-0">
               <h2>my portfolio website</h2>
 
               <div className="links">
                 <a href="#" target="_blank">
                   <i className="fab fa-github"></i>
-                </a>
-
+                </a>{" "}
                 <a href="#" target="_blank">
                   <i className="fab fa-chrome"></i>
                 </a>
@@ -36,15 +36,15 @@ export const Projects = () => {
                   nesciunt?
                 </p>
               </div>
-            </div>
-          </div>
+            </Col>
+          </Row>
 
           {/* <!-- =============project 2 section  =============== --> */}
-          <div className="row mt-5 py-5">
-            <div className="col-md">
-              <img src={project1} className="img-fluid" alt="" />
-            </div>
-            <div className="col-md mt-5 mt-md-0">
+          <Row className=" mt-5 py-5">
+            <Col md="6">
+              <img src={Nancy} className="img-fluid" alt="" />
+            </Col>
+            <Col md="6" className=" mt-5 mt-md-0">
               <h2>my portfolio website</h2>
 
               <div className="links">
@@ -64,15 +64,15 @@ export const Projects = () => {
                   nesciunt?
                 </p>
               </div>
-            </div>
-          </div>
+            </Col>
+          </Row>
           {/* <!-- =============project 3 section  =============== --> */}
 
-          <div className="row mt-5">
-            <div className="col-md">
-              <img src={project1} className="img-fluid" alt="" />
-            </div>
-            <div className="col-md mt-5 mt-md-0">
+          <Row className=" mt-5">
+            <Col md="6">
+              <img src={Nancy} className="img-fluid" alt="" />
+            </Col>
+            <Col md="6" className=" mt-5 mt-md-0">
               <h2>my portfolio website</h2>
 
               <div className="links">
@@ -92,9 +92,9 @@ export const Projects = () => {
                   nesciunt?
                 </p>
               </div>
-            </div>
-          </div>
-        </div>
+            </Col>
+          </Row>
+        </Container>
       </div>
     </div>
   );

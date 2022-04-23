@@ -1,5 +1,5 @@
 import React from "react";
-import project2 from "../../images/project2.jpg";
+import Nancy from "../../images/Nancy.JPG";
 
 export const About = () => {
   return (
@@ -9,7 +9,7 @@ export const About = () => {
       </div>
       <div className="row mt-5">
         <div className="col-md">
-          <img src={project2} className="img-fluid" alt="" />
+          <img src={Nancy} className="img-fluid" alt="" />
         </div>
         <div className="col-md mt-5 mt-md-0">
           <h2>my portfolio website</h2>

@@ -7,7 +7,7 @@ a {
 }
 .top-nav {
   min-height: 70vh;
-  background: #e98383;
+  background: #fcb9b9;
   background-size: cover;
 }
 
@@ -16,7 +16,7 @@ a {
 }
 
 #top {
-  margin-top: 20%;
+  margin-top: 10%;
 }
 a.nav-link {
   color: rgb(44, 19, 152) !important;
