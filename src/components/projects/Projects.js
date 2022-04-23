@@ -22,7 +22,7 @@ export const Projects = () => {
 
               <div className="links">
                 <a href="#" target="_blank">
-                  <i className="fab fa-github"></i>
+                  <i className="fab fa-github text-dark"></i>
                 </a>{" "}
                 <a href="#" target="_blank">
                   <i className="fab fa-chrome"></i>
